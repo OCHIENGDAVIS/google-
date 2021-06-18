@@ -16,7 +16,7 @@ function SearchResults({ results }) {
                   {res.title}
                 </h2>
               </a>
-              <a href={res.link} className="text-sm">
+              <a href={res.link} className="text-sm text-blue-400">
                 {res.formattedUrl}
               </a>
             </div>
